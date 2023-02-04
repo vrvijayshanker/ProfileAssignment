@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-snap-type: y mandatory;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.container {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    width: 100%;
+    background: linear-gradient(to top right, #ccffff 0%, #ffffff 100%);
+    position: relative;
+}
+
+.nav{
+    padding-top: 2rem;
+    background: #1e1c1c;
+    text-align: center;
+    overflow: hidden;
+    position:sticky;
+    top: 0;
+    width: 100%;
+}
+
+.nav ul li{
+    display: inline;
+    margin: 1rem;
+    padding: 1rem;
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1rem;
+}
+.nav ul li a:hover {
+    text-shadow: 1px #ccffff;
+    background-color: #ffffff;
+    color: black;
+}
+
+.pages{
+    height: 100vh;    
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    
+}
+
+.contactinput{
+    width: 100%;
+    height: 2rem;
+    margin-top: 1rem;
+    
+}
+#msg{
+    height: 5rem;
+}
+#send{
+    padding: 5px;
+}
+
+#headshot{
+    width: 400px;
+}
+
+.footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:2.5rem;   
+    padding: 0.25rem;
+    background:#1e1c1c;
+    text-align: center;
+}
+
+.footer ul li{
+    list-style: none;
+    display: inline;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
